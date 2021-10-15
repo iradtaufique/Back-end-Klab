@@ -2,7 +2,7 @@ import requests
 # from requests.models import HTTPBasicAuth
 from requests.auth import HTTPBasicAuth
 
-resposne = requests.get('https://api.github.com/users', auth=HTTPBasicAuth('iradtaufique', 'irad1423'))
+resposne = requests.get('https://rapidapi.com/', auth=HTTPBasicAuth('username', 'passord'))
 print(resposne.status_code)
 # print(resposne.json())
 
